@@ -2,7 +2,7 @@
 SQL_UP = u"""
 CREATE TABLE employee(
   employee_id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-  employee_name VARCHAR(10) NOT NULL,
+  employee_name VARCHAR(100) NOT NULL,
   department VARCHAR(10) NOT NULL,
   position VARCHAR(10) NOT NULL,
   salary int NOT NULL
